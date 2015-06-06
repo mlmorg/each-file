@@ -15,7 +15,7 @@ test('iterating a file', function t(assert) {
     assert.ok(file.path.match(/foo\.js$/),
       'sets filepath correctly');
 
-    assert.equal(file.base, 'test/fixtures',
+    assert.equal(file.base, 'test/fixtures/',
       'sets the base path correctly');
 
     assert.equal(file.relative, 'foo.js',
